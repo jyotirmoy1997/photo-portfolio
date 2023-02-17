@@ -1,0 +1,56 @@
+.preview-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-bottom: 4em;
+}
+
+.preview-card p{
+    background-color: crimson;
+}
+
+.preview-card-image-container{
+    /* background-color: darkgreen; */
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 500px;
+    /* margin: 0 auto; */
+}
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fade 12s infinite;
+  }
+  #pic1 {
+    animation-delay: 0s;
+  }
+  #pic2 {
+    animation-delay: 4s;
+  }
+  #pic3 {
+    animation-delay: 8s;
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+    92% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

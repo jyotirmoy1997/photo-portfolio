@@ -1,0 +1,30 @@
+.nav-bar{
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-image: linear-gradient(to right, rgba(203, 226, 246, 0.8), rgba(235, 221, 228, 0.8));
+    /* background-image: linear-gradient(to right, #cbe2f6, #ebdde4); */
+    /* background-image: linear-gradient(to right, #434e61, #434e61); */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+    /*width: 100%;
+    padding-bottom: 4em;
+    z-index: 9999; */
+}
+
+.nav-bar .partitioner{
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.gallery-nav{
+    position: relative;
+}
