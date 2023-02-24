@@ -4,3 +4,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.gallery-preview-image-container img{
+    border-radius: 10px;
+}

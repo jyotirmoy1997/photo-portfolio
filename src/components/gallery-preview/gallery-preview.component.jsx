@@ -1,15 +1,18 @@
 import './gallery-preview.styles.css'
+import { Fragment } from 'react'
 
-const GalleryPreview = ({title, imageArray}) => {
+const GalleryPreview = ({logo, imageArray}) => {
     return(
-        <div className='gallery-preview-container'>
-            <h1>{title}</h1>
-            <div className='gallery-preview-image-container'>
-                <img src={imageArray[0]} alt="" height={400} width={267} />
-                <img src={imageArray[1]} alt="" height={400} width={600}/>
-                <img src={imageArray[2]} alt="" height={400} width={267}/>
+        <Fragment>
+            <div className='gallery-preview-container'>
+                <img src={logo} alt="" height={200} width={355} />
+                <div className='gallery-preview-image-container'>
+                    <img src={imageArray[0]} alt="" height={400} width={267} />
+                    <img src={imageArray[1]} alt="" height={400} width={600}/>
+                    <img src={imageArray[2]} alt="" height={400} width={267}/>
+                </div>
             </div>
-        </div>
+        </Fragment>
     )
 }
 

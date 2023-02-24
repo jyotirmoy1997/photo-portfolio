@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -7,6 +8,6 @@ body {
   /* background-image: url('./assets/background.jpg'); */
   /* background-image: linear-gradient(to right, #cbe2f6, #ebdde4); */
   /* font-family: 'PT Sans Narrow', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   /* color: bisque; */
 }

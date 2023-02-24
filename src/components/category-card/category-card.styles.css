@@ -1,0 +1,13 @@
+.category-card{
+    width: 100%;
+    /* background-color: #c9b4e5; */
+    padding: 0.5em 0.5em;
+    /* background-image: url("../../assets/test.jpg") no-repeat; */
+    /* background-size: 1500px 1000px; */
+}
+
+.category-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}

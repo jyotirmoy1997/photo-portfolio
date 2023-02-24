@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
 import { Fragment } from "react"
 import './navigation.styles.css'
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logos/MainLogo.png"
 
 const Navigation = () => {
     return(
@@ -21,8 +21,11 @@ const Navigation = () => {
                     </Link>
                     <Link className="nav-link gallery-nav" to="/gallery">
                         Gallery
-                        <div>
-                            
+                        <div class="gallery-dropdown">
+                            <Link className="anchor" href="#">The Brandstand</Link>
+                            <Link className="anchor" href="#">Bibaho Scapes</Link>
+                            <Link className="anchor" href="#">Media Pedia</Link>
+                            <Link className="anchor" href="#">Pixel Perfect</Link>
                         </div>
                     </Link>
                 </div>

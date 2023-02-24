@@ -3,6 +3,7 @@
     color: #fbfcf9;
     display: flex;
     flex-direction: column;
+    padding-top: 1.5em;
 }
 
 .footer{
