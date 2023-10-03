@@ -3,6 +3,10 @@ import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
 import Gallery from './routes/gallery/gallery.component';
 import About from './routes/about/about.component';
+import BBS from "./routes/bibahoscapes/bbs.routes"
+import PP from "./routes/pixelperfect/pp.routes"
+import BStand from "./routes/brandstand/bstand.routes"
+import MPedia from "./routes/mediapedia/mp.routes"
 import './App.css';
 
 function App() {
@@ -10,7 +14,14 @@ function App() {
     <Routes>
       <Route path='/' element={<Navigation/>}>
         <Route index={true} element={<Home />} />
-        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/gallery/*' element={<Gallery />}/>
+
+        {/* Separate Routes for Test */}
+        <Route path="/bibahoscapes" element={<BBS />} />
+        <Route path="/pixelperfect" element={<PP />} />
+        <Route path="/brandstand" element={<BStand />} />
+        <Route path="/mediapedia" element={<MPedia />} />
+
         <Route path='/about' element={<About />} />
       </Route>
     </Routes>
