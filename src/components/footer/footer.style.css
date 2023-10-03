@@ -12,6 +12,8 @@
     height: 200px;
     background-color: #282c2f;
     color: #fbfcf9;
+    /* background-color: aqua; */
+    align-items: center;
 }
 
 .footer-contact{
@@ -33,10 +35,11 @@
 
 .footer-icons{
     display: flex;
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
 }
 
 .copyright-text{
     text-align: center;
+    /* background-color: bisque; */
 }

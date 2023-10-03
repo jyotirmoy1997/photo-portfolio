@@ -16,9 +16,9 @@
 
 .nav-bar .partitioner{
     display: flex;
-    width: 30%;
+    width: 25%;
     justify-content: space-around;
-    padding-right: 15px;
+    padding-right: 2em;
 }
 
 .gallery-nav{
