@@ -11,9 +11,9 @@ const Home = () => {
         <div>
             <CoverPage />
             <CarouselComponent />
-            <AnimationOnScroll animateIn="animate__zoomIn">
+            {/* <AnimationOnScroll animateIn="animate__zoomIn">
                 <h1>Some Text</h1>
-            </AnimationOnScroll>
+            </AnimationOnScroll> */}
             <CategoryCard />
             {/* <Preview/> */}
             <Footer/>

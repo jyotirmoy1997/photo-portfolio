@@ -5,7 +5,7 @@ const BBS = () => {
     return(
         <>
             <div>This is BibahoScapes Page</div>
-            <ImagePage/>
+            <GalleryItem/>
         </>)
         
 }

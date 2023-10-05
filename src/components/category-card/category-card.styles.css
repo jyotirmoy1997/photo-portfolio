@@ -1,5 +1,6 @@
 .category-card{
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
     /* background-color: #c9b4e5; */
     padding: 0.5em 0.5em;
     /* background-image: url("../../assets/test.jpg") no-repeat; */
@@ -9,5 +10,5 @@
 .category-card img{
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 12px;
 }

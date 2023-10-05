@@ -34,5 +34,14 @@ export const galleryPreviewImages = [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227907/Photography%20Website/Gallery-Preview/the-brandstand/test15_x8up3s.jpg",
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227906/Photography%20Website/Gallery-Preview/the-brandstand/test16_rvbaen.jpg"
         ]
-    }
+    },
+    {
+        id : 4,
+        logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524614/Photography%20Website/logos/MediaPediaPNG_M_omk6x7.png",
+        images : [
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524426/Photography%20Website/Gallery-Preview/media-pedia/Album_Cover_silwno.png",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524458/Photography%20Website/Gallery-Preview/media-pedia/Agomini_Thumbnail_ogxs9t.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524426/Photography%20Website/Gallery-Preview/media-pedia/Album_Cover_silwno.png"
+        ]
+    },
 ]

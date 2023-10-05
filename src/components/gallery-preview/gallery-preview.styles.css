@@ -1,8 +1,11 @@
+
+
 .gallery-preview-image-container{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+    
 }
 
 .gallery-preview-image-container img{
