@@ -1,18 +1,91 @@
 .gallery-item-wrapper{
-    background-color: chocolate;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .image-container{
+    height: auto;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
     margin: 0 auto;
+    /* background-color: chocolate; */
 }
 
-.image-dummy{
-    height: 300px;
-    width: 300px;
+/* .image-dummy {
+    width: 400px;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+    position: relative;
     background-color: brown;
+}
+
+.image-dummy:hover .img-text {
+    opacity: 1;
+    color: black;
+    cursor: pointer;
+}
+.img-text {
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    background-color: rgba(104, 255, 244, 0.6);
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    text-align: center;
+} */
+
+.image-dummy{
+    width: 400px;
+    height: 267px;
+    border-radius: 4px;
+}
+
+
+
+.img-text{
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transition: opacity .2s ease-in-out;
+    opacity: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+}
+
+.image-dummy:hover .img-text {
+    color: black;
+    cursor: pointer;
+    background-color: rgba(104, 255, 244, 0.6);
+    opacity: 1;
+}
+
+
+.image-dummy img{
+    width: 100%;
+    height: auto;
+}   
+
+
+
+.gallery-thumb-logo{
+    width: 20%;
 }

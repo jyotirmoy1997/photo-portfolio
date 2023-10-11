@@ -4,8 +4,9 @@ import ImagePage from "../../components/images-page/images-page.component"
 const BBS = () => {
     return(
         <>
-            <div>This is BibahoScapes Page</div>
+            {/* <div>This is BibahoScapes Page</div> */}
             <GalleryItem/>
+            {/* <ImagePage/> */}
         </>)
         
 }
