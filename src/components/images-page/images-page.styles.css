@@ -1,8 +1,8 @@
 .image-page-wrapper{
-    background-color: chocolate;
-    height: 600px;
+    height: 650px;
     display: flex;
     justify-content: space-evenly;
+    padding: 2em 0;
 }
 
 .image-desc{
@@ -10,20 +10,22 @@
     width: 25%;
 }
 
+
 .gallery-image-slider{
-    background-color: brown;
     width: 60%;
-    overflow: auto;
+    overflow: scroll;
     white-space: nowrap;
     align-items: center;
+
 }
 
 .img-x{
-    background-color:cadetblue;
     display: inline-block;
     height: 90%;
-    width: 90%;
-    border: 1px solid black;
     margin-top: 2em;
     margin-left: 1em;
+}
+
+.img-x img{
+    height: 100%;
 }
