@@ -5,13 +5,33 @@ import img2 from "./img2.jpg"
 import img3 from "./img3.jpg"
 import img4 from "./img4.jpg"
 
+import fblogo from "../../assets/logos/facebook.png"
+import instalogo from "../../assets/logos/instagram.png"
+
 const ImagePage = () => {
     return(
         <>
             <div className="image-page-wrapper">
-                <div className="image-desc">
-                    Image Description
+                <div className="image-desc-wrapper">
+                    <div className="image-desc">
+                        <div className="image-desc-content">
+                            <h3>SHRUTI & SAPTARSHI</h3>
+                            <p># Photos</p>
+                        </div>
+                        <div className="image-desc-content">
+                            <h5>Category</h5>
+                            <h6>Wedding Photography</h6>
+                        </div>
+                        <div className="image-desc-content">
+                            <h5>Links</h5>
+                            <div className="image-desc-link-container">
+                                <img src={fblogo} alt="" width={30} height={30} />
+                                <img src={instalogo} alt="" width={30} height={30} />
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
                 <div className="gallery-image-slider">
                     <div className="img-x"><img src={img1} alt="" srcset="" /></div>
                     <div className="img-x"><img src={img2} alt="" srcset="" /></div>
