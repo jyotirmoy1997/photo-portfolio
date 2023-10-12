@@ -1,7 +1,7 @@
 import { Routes, Route} from 'react-router';
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
-import Gallery from './routes/gallery/gallery.component';
+import Gallery from './routes/gallery-route/gallery.routes';
 import About from './routes/about/about.component';
 import BBS from "./routes/bibahoscapes/bbs.routes"
 import PP from "./routes/pixelperfect/pp.routes"

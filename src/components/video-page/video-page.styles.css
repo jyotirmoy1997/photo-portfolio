@@ -40,7 +40,7 @@
 }
 
  .gallery-image-slider::-webkit-scrollbar {
-    width: 10px;
+    width: 13px;
   }
 
  .gallery-image-slider::-webkit-scrollbar-track {
