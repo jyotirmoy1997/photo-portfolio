@@ -6,8 +6,8 @@ const BBS = () => {
     return(
         <>
             {/* <div>This is BibahoScapes Page</div> */}
-            {/* <GalleryItem/> */}
-            <ImagePage/>
+            <GalleryItem/>
+            {/* <ImagePage/> */}
             {/* <VideoPage/> */}
         </>)
         

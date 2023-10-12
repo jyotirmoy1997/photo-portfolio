@@ -1,8 +1,17 @@
 export const categoryCardImages = [
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228433/Photography%20Website/category-card/test3_olrc2q.jpg",
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228429/Photography%20Website/category-card/test5_b910uc.jpg",
+    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136175/Photography%20Website/category-card/test3_olrc2q_1_kyhwy0.jpg",
+    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test5_b910uc_1_z79laf.jpg",
     "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228317/Photography%20Website/category-card/test_zdv7kx.jpg",
-    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228319/Photography%20Website/category-card/test6_szp22j.jpg"
+    "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697136162/Photography%20Website/category-card/test6_szp22j_1_nury0o.jpg"
+]
+
+export const carouselImages = [
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img5_o2xjxk.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img7_ep8njv.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135563/Photography%20Website/Carousel/img1_zvznzx.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135564/Photography%20Website/Carousel/img4_rbqdk8.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135542/Photography%20Website/Carousel/img6_kub9gh.jpg",
+        "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697135565/Photography%20Website/Carousel/img3_orfoar.jpg"
 ]
 
 export const coverLink = "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677228553/Photography%20Website/Cover/cover_sr3x8j.jpg"
