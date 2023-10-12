@@ -6,17 +6,18 @@
 }
 
 .image-desc-wrapper{
-    background-color: #003466;
+    background-color: rgba(0, 52, 102, 0.9);
     width: 25%;
     color: #F8F8F8;
+    border-radius: 5px;
+    height: 95%;
+    margin-top: 1.5em;
 }
 
 .image-desc{
     width: 85%;
     height: 85%;
     margin: 2em auto;
-    
-    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,6 +65,3 @@
 .img-x img{
     height: 100%;
 }
-
-
-

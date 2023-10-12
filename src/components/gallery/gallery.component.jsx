@@ -1,6 +1,6 @@
-import GalleryPreview from "../../components/gallery-preview/gallery-preview.component"
-import { galleryPreviewImages } from "../../assets/imageLinks"
-import Footer from "../../components/footer/footer.component"
+import GalleryPreview from "../gallery-preview/gallery-preview.component"
+import {galleryPreviewImages} from "../../assets/imageLinks"
+import Footer from "../footer/footer.component"
 import "./gallery.styles.css"
 
 

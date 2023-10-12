@@ -1,29 +1,14 @@
-import GalleryPreview from "../../components/gallery-preview/gallery-preview.component"
-import { galleryPreviewImages } from "../../assets/imageLinks"
-import Footer from "../../components/footer/footer.component"
-// import "./gallery.styles.css"
+import { Route, Routes } from "react-router-dom";
+import Gallery from "../../components/gallery/gallery.component";
 
 
-const Gallery = () => {
+const GalleryRoute = () => {
     return(
-        <div className="galley-wrapper">
-            {/* <div className="gallery-wrapper-inner">
-                {
-                    galleryPreviewImages.map((content) => {
-                        return(
-                            <div key={content.id}>
-                                <GalleryPreview 
-                                    logo={content.logo} 
-                                    imageArray={content.images} 
-                                />
-                            </div>
-                        )
-                    })
-                }
-            </div> */}
-            <Footer/>
-        </div>
+        <Routes>
+            <Route index element={<Gallery/>} />
+            {/* <Route path=":category" element={<Category/>}/> */}
+        </Routes>
     )
 }
 
-export default Gallery
+export default GalleryRoute

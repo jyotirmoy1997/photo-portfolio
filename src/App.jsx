@@ -1,7 +1,7 @@
 import { Routes, Route} from 'react-router';
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home.component';
-import Gallery from './routes/gallery-route/gallery.routes';
+import GalleryRoute from './routes/gallery-route/gallery.routes';
 import About from './routes/about/about.component';
 import BBS from "./routes/bibahoscapes/bbs.routes"
 import PP from "./routes/pixelperfect/pp.routes"
@@ -14,7 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Navigation/>}>
         <Route index={true} element={<Home />} />
-        <Route path='/gallery/*' element={<Gallery />}/>
+        <Route path='/gallery/*' element={<GalleryRoute />}/>
 
         {/* Separate Routes for Test */}
         <Route path="/bibahoscapes" element={<BBS />} />
