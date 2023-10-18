@@ -7,6 +7,7 @@ import BBS from "./routes/bibahoscapes/bbs.routes"
 import PP from "./routes/pixelperfect/pp.routes"
 import BStand from "./routes/brandstand/bstand.routes"
 import MPedia from "./routes/mediapedia/mp.routes"
+import ImagePage from './components/images-page/images-page.component';
 import './App.css';
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
         <Route path="/pixelperfect" element={<PP />} />
         <Route path="/brandstand" element={<BStand />} />
         <Route path="/mediapedia" element={<MPedia />} />
+
+        <Route path='images'>
+              <Route path=':imageId' element={<ImagePage/>}/>
+          </Route>
 
         <Route path='/about' element={<About />} />
       </Route>

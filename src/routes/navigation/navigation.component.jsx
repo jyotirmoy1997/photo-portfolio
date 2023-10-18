@@ -19,14 +19,14 @@ const Navigation = () => {
                     <Link className="nav-link" to="/about">
                         About
                     </Link>
-                    <Link className="nav-link gallery-nav" to="/gallery">
+                    <Link  className="nav-link gallery-nav" to="/gallery">
                         Gallery
-                        <div class="gallery-dropdown">
+                        {/* <div class="gallery-dropdown">
                             <Link className="anchor" href="#">The Brandstand</Link>
                             <Link className="anchor" href="#">Bibaho Scapes</Link>
                             <Link className="anchor" href="#">Media Pedia</Link>
                             <Link className="anchor" href="#">Pixel Perfect</Link>
-                        </div>
+                        </div> */}
                     </Link>
                 </div>
             </div>

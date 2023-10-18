@@ -19,15 +19,17 @@ export const coverLink = "https://res.cloudinary.com/dst1eqcmo/image/upload/v167
 export const galleryPreviewImages = [
     {
         id : 1,
+        type : "bibahoscapes",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227357/Photography%20Website/logos/BibahoScapes_gzla2m.png",
         images : [
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227226/Photography%20Website/Gallery-Preview/bibaho-scapes/test7_wqjgvr.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227300/Photography%20Website/Gallery-Preview/bibaho-scapes/test9_vlln3x.jpg",
-            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227226/Photography%20Website/Gallery-Preview/bibaho-scapes/test10_rnlfjf.jpg"
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560175/Photography%20Website/Gallery-Preview/bibaho-scapes/test7_wqjgvr_1_ocdoho.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560165/Photography%20Website/Gallery-Preview/bibaho-scapes/test9_vlln3x_1_dur31q.jpg",
+            "https://res.cloudinary.com/dst1eqcmo/image/upload/v1697560170/Photography%20Website/Gallery-Preview/bibaho-scapes/test10_rnlfjf_1_krs3jf.jpg"
         ]
     },
     {
         id : 2,
+        type : "pixelperfect",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227360/Photography%20Website/logos/PixelPerfect_dssyt0.png",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227726/Photography%20Website/Gallery-Preview/pixel-perfect/test13_witoff.jpg",
@@ -37,6 +39,7 @@ export const galleryPreviewImages = [
     },
     {
         id : 3,
+        type : "brandstand",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227361/Photography%20Website/logos/TheBrandStand_puyfyq.jpg",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1677227808/Photography%20Website/Gallery-Preview/the-brandstand/test14_jquemd.jpg",
@@ -46,6 +49,7 @@ export const galleryPreviewImages = [
     },
     {
         id : 4,
+        type : "mediapedia",
         logo : "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524614/Photography%20Website/logos/MediaPediaPNG_M_omk6x7.png",
         images : [
             "https://res.cloudinary.com/dst1eqcmo/image/upload/v1696524426/Photography%20Website/Gallery-Preview/media-pedia/Album_Cover_silwno.png",

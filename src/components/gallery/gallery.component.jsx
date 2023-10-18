@@ -14,7 +14,8 @@ const Gallery = () => {
                             <div key={content.id}>
                                 <GalleryPreview 
                                     logo={content.logo} 
-                                    imageArray={content.images} 
+                                    imageArray={content.images}
+                                    type={content.type}
                                 />
                             </div>
                         )
